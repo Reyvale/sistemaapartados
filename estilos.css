@@ -1,0 +1,114 @@
+/* Reset general */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Cuerpo */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    color: #001F3F;
+    padding: 20px;
+}
+
+/* Encabezado */
+h1, h2 {
+    color: #001F3F;
+    margin-bottom: 20px;
+}
+
+/* Contenedor principal */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 31, 63, 0.2);
+}
+
+/* Formularios */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    font-weight: bold;
+    margin-top: 15px;
+    color: #001F3F;
+}
+
+form input[type="text"],
+form input[type="password"],
+form input[type="datetime-local"],
+form input[type="submit"] {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form input[type="submit"] {
+    background-color: #FFA500;
+    color: #001F3F;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+form input[type="submit"]:hover {
+    background-color: #e69500;
+}
+
+/* Enlaces */
+a {
+    color: #FFA500;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+a:hover {
+    color: #cc8400;
+    text-decoration: underline;
+}
+
+/* Tabla de préstamos */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    border: 1px solid #001F3F;
+    padding: 10px;
+    text-align: left;
+}
+
+table th {
+    background-color: #001F3F;
+    color: white;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Botón salir */
+.logout {
+    background-color: #001F3F;
+    color: white;
+    padding: 8px 12px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.logout:hover {
+    background-color: #003366;
+}
